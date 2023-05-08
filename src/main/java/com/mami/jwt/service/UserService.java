@@ -1,9 +1,9 @@
-package com.youtube.jwt.service;
+package com.mami.jwt.service;
 
-import com.youtube.jwt.repository.RoleRepository;
-import com.youtube.jwt.repository.UserRepository;
-import com.youtube.jwt.entity.Role;
-import com.youtube.jwt.entity.AppUser;
+import com.mami.jwt.entity.AppUser;
+import com.mami.jwt.entity.Role;
+import com.mami.jwt.repository.RoleRepository;
+import com.mami.jwt.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

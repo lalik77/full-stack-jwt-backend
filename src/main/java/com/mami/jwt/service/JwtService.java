@@ -1,10 +1,10 @@
-package com.youtube.jwt.service;
+package com.mami.jwt.service;
 
-import com.youtube.jwt.repository.UserRepository;
-import com.youtube.jwt.entity.JwtRequest;
-import com.youtube.jwt.entity.JwtResponse;
-import com.youtube.jwt.entity.AppUser;
-import com.youtube.jwt.util.JwtUtil;
+import com.mami.jwt.entity.JwtResponse;
+import com.mami.jwt.repository.UserRepository;
+import com.mami.jwt.entity.JwtRequest;
+import com.mami.jwt.entity.AppUser;
+import com.mami.jwt.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;

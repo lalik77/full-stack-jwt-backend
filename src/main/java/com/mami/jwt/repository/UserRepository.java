@@ -1,6 +1,6 @@
-package com.youtube.jwt.repository;
+package com.mami.jwt.repository;
 
-import com.youtube.jwt.entity.AppUser;
+import com.mami.jwt.entity.AppUser;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

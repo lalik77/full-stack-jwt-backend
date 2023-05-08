@@ -1,7 +1,7 @@
-package com.youtube.jwt.controller;
+package com.mami.jwt.controller;
 
-import com.youtube.jwt.entity.AppUser;
-import com.youtube.jwt.service.UserService;
+import com.mami.jwt.entity.AppUser;
+import com.mami.jwt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

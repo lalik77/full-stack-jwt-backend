@@ -1,4 +1,4 @@
-package com.youtube.jwt.configuration;
+package com.mami.jwt.configuration;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;

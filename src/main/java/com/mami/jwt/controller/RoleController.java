@@ -1,7 +1,7 @@
-package com.youtube.jwt.controller;
+package com.mami.jwt.controller;
 
-import com.youtube.jwt.entity.Role;
-import com.youtube.jwt.service.RoleService;
+import com.mami.jwt.entity.Role;
+import com.mami.jwt.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
